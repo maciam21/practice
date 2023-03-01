@@ -1,0 +1,107 @@
+/* Classes */
+/* .logo-img {} */
+/* .nav-link {} */
+/* .hero-section {} */
+/* .heading-style {} */
+/* .footer-link {} */
+/* Unique Indentifiers (id) */
+/* #main-header {} */
+/* #section-one {} */
+/* #section-two {} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+     background-color:rgb(170, 170, 170);
+     font-family: 'Manrope', sans-serif;
+ }
+ 
+ header > nav ul > li {
+     margin: 0 10px;
+ }
+ a.nav-link {
+     color: #fff;
+     background-color: #000;
+     padding: 12px 52px;
+     /* border: 1px solid #000; */
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     text-decoration: underline;
+ }
+ 
+ header {
+     height: 500px;
+     padding: 12px;
+ }
+ 
+ .hero-section h1 {
+    font-size: 66px;
+    margin-top: 125px;
+ }
+ 
+.section-brand-img {
+    height: 520px;
+}
+/* .hero-section, section#section-one {
+    text-align: center;
+} */
+main, #section-one ul {
+    width: 85%;
+    margin: 60px auto;
+}
+section h2.heading-style {
+    font-size: 32px;
+    text-transform: uppercase;
+    background-color: rgb(152, 152, 152);
+}
+.inline-block {
+    display: inline-block;
+}
+#section-one > ul > li {
+    padding: 22px 8px;
+}
+#section-one ul {
+    background-color: rgb(195, 195, 195);
+}
+section#section-one p {
+    padding: 32px;
+    font-size: 18px;
+}
+h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h2.heading-style, h1 {
+    font-family: 'Aboreto', cursive;
+}
+.text-center {
+    text-align: center;
+}
+section#section-two h2, section#section-two div {
+    margin-bottom: 72px;
+}
+.border-pill-wrapper {
+    border-radius: 20px;
+}
+.collection-link {
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 22px 62px;
+    margin: 40px;
+    border: 1px solid rgb(57, 57, 57);
+}
+a.collection-link:hover {
+    color: rgb(57,57,57);
+    border: 1px solid;
+    background-color: rgb(255,255,255);
+}
+footer {
+    padding: 54px;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+}
